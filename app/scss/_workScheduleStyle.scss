@@ -1,0 +1,280 @@
+.main-servicesPrice {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.schedule-section-1 {
+    margin: auto;
+    max-width: 1152px;
+    padding-top: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .schedule-link-container {
+        .schedule-link-container-active {
+            color: #797C80;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-right: 4px;
+        }
+
+        .schedule-link-container-gray {
+            color: #BFBFBF;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: 2px;
+        }
+    }
+
+    .schedule-title {
+        color: #292D33;
+        font-family: 'Manrope';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        margin-top: 5px;
+        letter-spacing: -0.1px;
+    }
+
+    @media (max-width: 768px) {
+        .schedule-title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+}
+
+.schedule-section-2 {
+    margin: auto;
+    max-width: 1152px;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .schedule-hospital-btn-con {
+        display: flex;
+        width: 236px;
+        height: 48px;
+        justify-content: space-between;
+        box-shadow: 0px 0px 3px 0px rgba(13, 61, 46, 0.40) inset;
+        padding: 4px;
+        border-radius: 20px;
+
+        button {
+            width: 118px;
+            height: 40px;
+            border-radius: 16px;
+            text-align: center;
+            font-family: 'Manrope';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            transition: transform 0.3s ease-in-out;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+
+
+
+        .btn-active {
+            color: #FFF;
+            background-color: #1DC3B0;
+        }
+
+        .btn-nonactive {
+            width: 110px;
+            color: #797C80;
+            background-color: none;
+        }
+    }
+}
+
+.hospital-schedule-Con {
+    width: 100%;
+    margin-top: 32px;
+    padding-bottom: 40px;
+
+    .schedule-Con {
+        background-color: #F5FBFC;
+        padding-top: 64px;
+        font-family: 'Manrope';
+        padding-bottom: 75px;
+
+        .schedule {
+            margin: auto;
+            max-width: 1152px;
+            min-width: 767px;
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .svg-line {
+                position: absolute;
+                width: 96.5%;
+                top: 72px;
+            }
+
+            .right-navigation-btn{
+                position: absolute;
+                right: -1.7%;
+                top: -23px;
+            }
+
+            @media (max-width: 1200px){
+                .right-navigation-btn{
+                    right: 16px;
+                }
+            }
+
+            table {
+                width: 101.5%;
+                border-collapse: collapse;
+
+                th,
+                td {
+                    text-align: left;
+
+                }
+
+                th:first-child,
+                td:first-child {
+                    width: 280px;
+                }
+
+                th:not(:first-child),
+                td:not(:first-child) {
+                    width: 92px;
+                }
+
+                .main-row {
+
+                    .main-top-title {
+                        color: #292D33;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: -0.5px;
+                        // padding-bottom: 44px;
+                        text-align: left;
+                        vertical-align: top;
+                        height: 74px;
+
+
+                        span {
+                            margin-left: -2px;
+                        }
+                    }
+
+                    .main-top-item {
+                        .name-day {
+                            color: #292D33;
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;
+                            margin-bottom: 5px;
+                        }
+
+                        .date {
+                            color: #797C80;
+                            font-family: 'Manrope';
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+                        }
+
+                        .name-day-red {
+                            color: #E31351;
+                        }
+                    }
+
+                }
+
+                .personal-item {
+                    margin-left: -1px;
+                    padding-top: 19px;
+
+                    .name-doctor {
+                        color: #292D33;
+                        font-family: 'Manrope';
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 20px;
+                        margin-left: -1px;
+                    }
+
+                    .position {
+                        color: var(--Text3, #797C80);
+                        font-family: 'Manrope';
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        margin-top: 5px;
+                    }
+                }
+
+                .personal-item-top{
+                    padding-top: 23px;
+                }
+
+                .item-value {
+                    vertical-align: top;
+                    color: #292D33;
+                    font-family: 'Manrope';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.8px;
+                    padding-top: 22px;
+                }
+
+                .item-value-bot{
+                    padding-top: 18px;
+                }
+
+
+            }
+
+        }
+
+        @media (max-width: 1000px){
+            .schedule{
+                padding-right: 45px;
+            }
+        }
+
+        @media (max-width: 767px){
+            overflow-y: scroll;
+        }
+    }
+
+    .schedule-Con-white{
+        background-color: #fff;
+    }
+}
+
+.strogino-schedule-Con{
+    display: none;
+}

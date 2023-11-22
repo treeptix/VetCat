@@ -1,0 +1,86 @@
+    .footer {
+        min-height: 215px;
+        background: #EEF3F7;
+        border-top: 1px solid #CFDFE5;
+
+        .footer__inner {
+            padding-top: 32px;
+            max-width: 1110px;
+            margin: 0 auto;
+            width: 100%;
+
+            .footer__inner--content {
+                display: flex;
+                justify-content: space-between;
+
+
+                .footer__content--title {
+                    max-width: 271px;
+                    width: 100%;
+                    color: #292D33;
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+
+                .footer__title--svg {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    background: linear-gradient(225deg, #FEDA75 0%, #FA7E1E 33.36%, #D62976 58.15%, #962FBF 80.65%, #4F5BD5 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .footer__content--info {
+                    color: #51555A;
+                    max-width: 728px;
+                    width: 100%;
+                    /* мини */
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 142.857% */
+                }
+            }
+
+            .footer__inner--baseline {
+                height: 63px;
+                border-top: 1px solid #CFDFE5;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+
+                .footer__baseline--left {
+                    color: #797C80;
+                    padding-top: 16px;
+                    /* мини */
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 142.857% */
+                }
+
+                .footer__baseline--right {
+                    color: #059E8C;
+                    text-align: right;
+                    padding-top: 16px;
+                    /* мини */
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 142.857% */
+                }
+            }
+        }
+    }

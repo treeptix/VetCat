@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All employees</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!--=include header.html-->
+      <!--=include aside.html-->
+      <main class="main main-allEmployees">
+        <section class="allEmployees-section-1">
+          <div class="allEmployees-link-container">
+            <a class="allEmployees-link-container-active" href="index.html"
+              >Главная</a
+            >
+            <svg
+              width="15"
+              height="9"
+              viewBox="0 0 15 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-1.5299e-07 4.5L14 4.5M14 4.5C12.4108 3.5 9.78494 1 9.78494 1M14 4.5C12.4108 5.5 9.78494 8 9.78494 8"
+                stroke="#797C80"
+              />
+            </svg>
+            <a
+              class="allEmployees-link-container-gray"
+              href="servicesPrice.html"
+              >Сотрудники</a
+            >
+          </div>
+
+          <h1 class="allEmployees-title">Наши специалисты</h1>
+        </section>
+
+        <section class="allEmployees-section-2">
+          <article class="allEmployees-section-2-top">
+            <h1>
+              У нас работают более 20 ветеринарных врачей, среди которых 3
+              кандидата наук.
+            </h1>
+            <div class="allEmployees-hospital-btn-con">
+              <button class="all-hospital btn-active">Везде</button>
+
+              <button class="strogino-hospital btn-nonactive">Строгино</button>
+
+              <button class="donskoi-hospital btn-nonactive">Донской</button>
+            </div>
+          </article>
+
+          <article class="allEmployees-section-2-bot">
+            <div class="allEmployees-btns-container">
+              <button
+                class="employe-btn employe-btn-active employe-btn-all"
+                data-btn-name="all"
+              >
+                Все специализации
+              </button>
+              <button class="employe-btn" data-btn-name="anastaziologia">
+                Анестезиология
+              </button>
+              <button class="employe-btn" data-btn-name="gastro">
+                Гастроэнтерология
+              </button>
+              <button class="employe-btn" data-btn-name="dermatology">
+                Дерматология
+              </button>
+              <button class="employe-btn" data-btn-name="kardio">
+                Кардиология
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Лабораторная диагностика
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Нефрология
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Онкология
+              </button>
+              <button class="employe-btn" data-btn-name="ortopedia">
+                Ортопедия
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Офтальмология
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Реанимация и интенсивная терапия
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Рентгенография
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Репродуктология
+              </button>
+              <button class="employe-btn" data-btn-name="stacionar">
+                Стационар
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Стоматология
+              </button>
+              <button class="employe-btn" data-btn-name="terapia">
+                Терапия
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Травматология
+              </button>
+              <button class="employe-btn" data-btn-name="uzi">УЗИ</button>
+              <button class="employe-btn" data-btn-name="hirurgiya">
+                Хирургия
+              </button>
+              <button class="employe-btn" data-btn-name="nothing">
+                Эндокринология
+              </button>
+            </div>
+
+            <button class="show-allEmployees-btn">Показать все услуги</button>
+          </article>
+        </section>
+
+        <section class="allEmployees-section-3">
+          <div
+            class="card-specialist"
+            data-card-hospital="strogino"
+            data-card-specialty="terapia"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127 (1).webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Терапия</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="donskoi"
+            data-card-specialty="uzi"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127.webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Узи</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="donskoi"
+            data-card-specialty="dermatology"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127.webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Дерматология</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="strogino"
+            data-card-specialty="hirurgiya"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127 (1).webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Хирургия</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="strogino"
+            data-card-specialty="stacionar"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127.webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Стационар</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="donskoi"
+            data-card-specialty="ortopedia"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127 (1).webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Ортопедия</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="strogino"
+            data-card-specialty="anastaziologia"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127.webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Анестезиология</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="donskoi"
+            data-card-specialty="gastro"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127.webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Гастроэнтерология</div>
+            </div>
+          </div>
+
+          <div
+            class="card-specialist"
+            data-card-hospital="strogino"
+            data-card-specialty="kardio"
+          >
+            <div class="top-card-specialist">
+              <img src="images/dist/Rectangle 127 (1).webp" alt="" />
+            </div>
+            <div class="bot-card-specialist">
+              <a class="bot-card-name" href="someEmploye.html">
+                Малицкая <br />
+                Валерия Викторовна
+              </a>
+              <div class="bot-card-job">Кардиология</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="allEmployees-section-4">
+          <div class="noneFound-page">
+            Спеціаліста нема, залишається тільки померти
+          </div>
+        </section>
+      </main>
+      <!--=include footer.html-->
+    </div>
+
+    <script src="js/swiper.js"></script>
+    <script src="js/aside.js"></script>
+    <script src="js/allEmployees.js"></script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+.main-allEmployees {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.allEmployees-section-1 {
+    margin: auto;
+    max-width: 1112px;
+    padding-top: 57px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .allEmployees-link-container {
+        .allEmployees-link-container-active {
+            color: #797C80;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-right: 4px;
+        }
+
+        .allEmployees-link-container-gray {
+            color: #BFBFBF;
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            margin-left: 2px;
+        }
+    }
+
+    .allEmployees-title {
+        color: #292D33;
+        font-family: 'Manrope';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        margin-top: 5px;
+        letter-spacing: -0.1px;
+    }
+
+    @media (max-width: 768px) {
+        .schedule-title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+}
+
+.allEmployees-section-2{
+    margin: auto;
+    max-width: 1112px;
+    padding-top: 34px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .allEmployees-section-2-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        h1 {
+            color: #292D33;
+            font-family: 'Manrope';
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            margin-bottom: 10px;
+            max-width: 650px;
+            letter-spacing: -0.05px;
+        }
+
+        .allEmployees-hospital-btn-con {
+            margin-top: 4px;
+            display: flex;
+            width: 324px;
+            height: 48px;
+            justify-content: space-between;
+            box-shadow: 0px 0px 3px 0px rgba(13, 61, 46, 0.40) inset;
+            padding: 4px;
+            border-radius: 20px;
+
+            button {
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 40px;
+                border-radius: 16px;
+                text-align: center;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                border: none;
+                color: #797C80;
+                background-color: rgba(13, 61, 46, 0.0);
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+
+
+            .btn-active {
+                color: #FFF;
+                background-color: #1DC3B0;
+            }
+        }
+
+    }
+
+    .allEmployees-section-2-bot {
+        .allEmployees-btns-container {
+            margin-top: 26px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .employe-btn {
+                padding: 7px 15px 9px 15px;
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                background-color: #EEF3F7;
+                border: none;
+                border-radius: 4px;
+                margin-right: 8px;
+                margin-bottom: 8px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                transition: transform 0.3s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .employe-btn-active {
+                color: #FFF;
+                text-align: center;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                background-color: #1DC3B0;
+                padding: 7px 12px 9px 13px;
+
+            }
+
+        }
+
+        .show-allEmployees-btn {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .allEmployees-section-2-top {
+
+            h1 {
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+        }
+
+        .allEmployees-section-2-bot {
+
+            .allEmployees-btns-container {
+
+                .employe-btn:nth-child(n+7) {
+                    display: none;
+                }
+
+            }
+
+            .show-allEmployees-btn {
+                margin-top: 20px;
+                display: block;
+                width: 200px;
+                height: 40px;
+                border-radius: 15px;
+                border: none;
+                background-color: #059E8C;
+                color: #FFF;
+                font-family: 'Manrope';
+                font-size: 18px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+
+    }
+}
+
+.allEmployees-section-3{
+    margin: auto;
+    max-width: 1112px;
+    padding-top: 64px;
+    padding-bottom: 55px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card-specialist {
+        width: 344px;
+        height: 494px;
+        margin-bottom: 74px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .top-card-specialist {
+            img {
+                height: 400px;
+            }
+        }
+
+        .bot-card-specialist {
+            .bot-card-name {
+                color: #292D33;
+                font-family: 'Manrope';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                max-width: 320px;
+                margin-top: 13px;
+            }
+
+            .bot-card-job {
+                color: #51555A;
+                font-family: 'Manrope';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                margin-top: 6px;
+            }
+        }
+    }
+
+    @media (max-width: 400px){
+        .card-specialist{
+            width: 240px;
+            height: 374px;
+
+            .top-card-specialist {
+                display: flex;
+                justify-content: center;
+                img {
+                    height: 280px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .allEmployees-section-3{
+        justify-content: space-around;
+    }
+}
+
+.allEmployees-section-4{
+    margin: auto;
+    max-width: 1112px;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    display: none;
+
+    .noneFound-page{
+        font-family: 'Manrope';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    @media (max-width: 768px){
+        .noneFound-page{
+            font-size: 20px;
+        }
+    }
+
+
+}
+
